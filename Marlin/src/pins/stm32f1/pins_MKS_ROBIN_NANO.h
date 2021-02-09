@@ -57,6 +57,11 @@
 #define SPI_DEVICE                             2
 
 //
+// Servos
+//
+#define SERVO0_PIN                          PA8   // Enable BLTOUCH
+
+//
 // Limit Switches
 //
 #define X_STOP_PIN                          PA15
@@ -112,7 +117,7 @@
   #endif
 #endif
 #ifndef FAN_PIN
-  #define FAN_PIN                           PB1 //Original pin: PB1
+  #define FAN_PIN                           PB1   // FAN
 #endif
 #ifndef HEATER_BED_PIN
   #define HEATER_BED_PIN                    PA0
@@ -150,7 +155,6 @@
   #define FIL_RUNOUT2_PIN                   PE6
 #endif
 
-//#define SERVO0_PIN                          PA8   // Enable BLTOUCH support
 
 //#define LED_PIN                           PB2
 
